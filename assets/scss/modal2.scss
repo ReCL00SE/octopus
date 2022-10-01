@@ -1,0 +1,86 @@
+body {
+    background: #f123;
+}
+
+.my_modal {
+    .modal-dialog {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+
+        .modal-content {
+            display: block;
+            border-radius: 0;
+            height: 100%;
+            background: #0D94A0;
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+
+            .modal-header {
+                padding-left: 0;
+                padding-right: 0;
+                border: none;
+
+
+                .close {
+                    opacity: 1;
+                    color: #fff;
+                    box-shadow: none;
+                }
+            }
+
+            .modal-body {
+                border: none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                a {
+                    font-size: 2.5rem;
+                    color: #fff;
+                    margin-bottom: 1rem;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .modal-footer {
+                justify-content: center;
+border: none;
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    margin-right: 3.125rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media (max-width: 991.98px) {
+    .my_modal .modal-dialog .modal-content .modal-body a{
+        font-size: 2rem;
+    }
+    .my_modal .modal-dialog .modal-content .modal-body{
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .my_modal .modal-dialog .modal-content .modal-body a{
+        font-size: 1.4rem;
+    }
+    .my_modal .modal-dialog .modal-content .modal-footer{
+        justify-content: flex-start;
+    }
+}
