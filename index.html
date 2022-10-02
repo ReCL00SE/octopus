@@ -23,7 +23,7 @@
         <div class="container">
             <nav class="navbar  oct_navbar ">
                 <a class="navbar-brand " href="#">
-                    <img src="assets/img/logo.png" alt="">
+                    <img src="assets/img/logo.svg" alt="">
                 </a>
 
                 <ul class="navbar-nav ml-auto flex-row">
@@ -32,11 +32,9 @@
                             aria-expanded="false">
                             RU
                         </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#">RU</a>
+                            <a class="dropdown-item" href="#">UZ</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -69,15 +67,15 @@
                             мероприятие любого масштаба
                             и формата «под ключ»!
                         </p>
-                        <a href="" class="oct_link"><span>уЗНАТЬ подробнее</span> </a>
+                        <a href="" class="oct_link"><span>Узнать подробнее</span> </a>
                     </div>
                     <div class="col-lg-5 info_block d-flex flex-column justify-content-between">
-                        <h3>Видео-
+                        <h3>Видео-<br>
                             продакшн</h3>
                         <p>Мы создадим для Вас видеоролик,
                             который выведет Ваш бизнес на
                             новый уровень развития!</p>
-                        <a href="" class="oct_link"><span>уЗНАТЬ подробнее</span> </a>
+                        <a href="" class="oct_link"><span>Узнать подробнее</span> </a>
                     </div>
                     <div class="col-lg-5 info_block d-flex flex-column justify-content-between">
                         <h3>Тимбилдинги </h3>
@@ -86,7 +84,7 @@
                             с помощью различных командо-
                             образующих мероприятий!
                         </p>
-                        <a href="" class="oct_link"><span>уЗНАТЬ подробнее</span> </a>
+                        <a href="" class="oct_link"><span>Узнать подробнее</span> </a>
                     </div>
                     <div class="col-lg-5 info_block d-flex flex-column justify-content-between">
                         <h3>PR </h3>
@@ -94,7 +92,7 @@
                             о вашей компании и выстроить
                             подходящий имидж в глазах
                             Вашей аудитории и общественности!</p>
-                        <a href="" class="oct_link"><span>уЗНАТЬ подробнее</span> </a>
+                        <a href="" class="oct_link"><span>Узнать подробнее</span> </a>
                     </div>
                 </div>
             </div>
@@ -114,18 +112,18 @@
                                 уровень продаж</span> </p>
                     </div>
                     <div class="col-lg-4">
-                        <p class="marked_text"><i class="fas fa-circle"></i> <span>повышают имидж организации
+                        <p class="marked_text"><i class="fas fa-circle"></i> <span>Повышают имидж организации
                                 в глазах клиентов, сотрудников
                                 и партнеров</span>
                         </p>
                     </div>
                     <div class="col-lg-4">
-                        <p class="marked_text"><i class="fas fa-circle"></i> <span> способствуют популяризации
+                        <p class="marked_text"><i class="fas fa-circle"></i> <span> Способствуют популяризации
                                 бренда, товара, услуги</span>
                         </p>
                     </div>
                     <div class="col-auto">
-                        <a href="" class="oct_link"><span>уЗНАТЬ подробнее</span> </a>
+                        <a href="" class="oct_link"><span>Узнать подробнее</span> </a>
                     </div>
                 </div>
 
@@ -189,12 +187,22 @@
                                         aria-describedby="Company" placeholder="Ваша компания *">
                                 </div>
                                 <div class="col-6 mb-5">
-                                    <input type="text" class="form-control" id="exampleEvent" aria-describedby="Event"
-                                        placeholder="Вас ивент *">
+                                    <select class="custom-select">
+                                        <option selected>Ваш ивент</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
                                 </div>
                                 <div class="col-6 mb-5">
-                                    <input type="number" class="form-control" id="examplePhone"
-                                        aria-describedby="Company" placeholder="Ваша компания *">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1"><img src="assets/img/FLAG.png" alt=""></span>
+                                        </div>
+                                        <input type="tel" class="form-control" data-plugin='phone-mask'
+                                            id="examplePhone" aria-describedby="Company"
+                                            placeholder="+998 (__) ___-__-__">
+                                    </div>
                                 </div>
                                 <div class="col">
                                     <a href="" class="oct_link mt-0"><span>Оставить заявку</span> </a>
@@ -209,15 +217,15 @@
     </main>
     <footer>
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between align-items-end">
                 <div class="col-auto">
-                    <div class="d-flex flex-column justify-content-between h-100"><img src="assets/img/logo.png" alt="">
+                    <div class="d-flex flex-column justify-content-between h-100"><img src="assets/img/logo.svg" alt="">
                         <p>© Octopus media agency 2022.</p>
                     </div>
                 </div>
                 <div class="col-auto">
 
-                    <a href="#" class="to_top"><i class="fal fa-arrow-circle-up"></i></a>
+                    <a href="#" class="to_top"><img src="assets/img/to_top.svg" alt="to_top"></a>
                 </div>
             </div>
         </div>
@@ -231,18 +239,22 @@
                 <div class="modal-content">
 
                     <div class="modal-header">
-                        <img src="assets/img/logo.png" alt="">
+                        <img src="assets/img/logo.svg" alt="">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <i class="fal fa-times"></i>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <nav class="nav modal-nav">
-                            <a class="nav-link" href="#">Организация мероприятий</a>
-                            <a class="nav-link" href="#">Тимбилдинги</a>
-                            <a class="nav-link" href="#">Видеопродакшн</a>
-                            <a class="nav-link" href="#">PR</a>
-                        </nav>
+                        <div class="row w-100">
+                            <div class="col-lg-7 ml-auto">
+                                <nav class="nav modal-nav">
+                                    <a class="nav-link" href="#">Организация мероприятий</a>
+                                    <a class="nav-link" href="#">Тимбилдинги</a>
+                                    <a class="nav-link" href="#">Видеопродакшн</a>
+                                    <a class="nav-link" href="#">PR</a>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <div>
@@ -274,6 +286,7 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
         integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/inputmask.js"></script>
     <script src="assets/js/js.js"></script>
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

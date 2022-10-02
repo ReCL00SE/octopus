@@ -14,7 +14,8 @@
     font-size: 0.75rem;
   }
   .oct_link::after {
-    font-size: 2.5rem;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
   }
   .section_video h2 {
     font-size: 3rem;
@@ -28,9 +29,6 @@
   .section_requests h3,
   .section_requests a {
     font-size: 1rem;
-  }
-  footer .to_top {
-    font-size: 5rem;
   }
   .social {
     font-size: 1rem;
@@ -53,7 +51,9 @@
     font-size: 0.7rem;
   }
   .oct_link::after {
-    font-size: 2rem;
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+    margin-left: -16px;
   }
   .section_video h2 {
     font-size: 2.5rem;
@@ -107,7 +107,9 @@
     font-size: 0.7rem;
   }
   .oct_link::after {
-    font-size: 1.8rem;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+    margin-left: -20px;
   }
   .section_info .info_block {
     margin-top: 2.5rem;
@@ -145,8 +147,8 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  footer .to_top {
-    font-size: 4rem;
+  .to_top img {
+    height: 60px;
   }
   .section_requests h2 {
     font-size: 2rem;
@@ -167,10 +169,14 @@
   .section_info {
     padding: 3rem 0;
   }
+  .input-group-text img {
+    height: 10px;
+  }
   .oct_link {
     margin-top: 2rem;
   }
-  .section_requests input {
+  .section_requests input,
+  .section_requests .custom-select {
     height: 1.5rem;
     font-size: 0.75rem;
     padding: 6px 3px;
