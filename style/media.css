@@ -88,6 +88,14 @@
   .section_requests h2 {
     font-size: 3rem;
   }
+  .my_modal .modal-footer a {
+    font-size: 1.3rem;
+  }
+  .my_modal .modal-footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -147,7 +155,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .to_top img {
+  footer .to_top img {
     height: 60px;
   }
   .section_requests h2 {
@@ -163,6 +171,56 @@
     padding-top: 120px;
     padding-bottom: 60px;
   }
+  .my_modal .modal-footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .my_modal .modal-footer a {
+    font-size: 1rem;
+  }
+  .my_modal .modal-footer .for_order_1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 1rem 0;
+  }
+  .my_modal .modal-footer .for_order_2 {
+    margin: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .my_modal .modal-footer .for_order_3 {
+    margin: 0;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .modal_right_side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .languages {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .languages a {
+    color: #fff;
+    margin-left: 8px;
+  }
+  .video video {
+    height: auto;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -174,6 +232,11 @@
   }
   .oct_link {
     margin-top: 2rem;
+  }
+  .oct_link span {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 0.1px solid #fff;
   }
   .section_requests input,
   .section_requests .custom-select {
@@ -187,7 +250,7 @@
   .section_video {
     padding-bottom: 2rem;
   }
-  .video iframe {
+  .video video {
     height: auto;
     aspect-ratio: 16/9;
   }
@@ -198,11 +261,24 @@
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
   }
+  .my_modal .modal-content {
+    padding: 1.25rem 0;
+  }
 }
 
 @media (max-width: 575.98px) {
   .header-section .header_title {
     font-size: 1.8rem;
+  }
+  .oct_link {
+    font-size: 8px;
+    font-weight: 600;
+  }
+  .section_info h2 {
+    font-size: 0.75rem;
+  }
+  .media_changes {
+    padding-left: 0;
   }
   .section_info h2 {
     font-size: 1rem;
@@ -214,8 +290,14 @@
     font-size: 1.6rem;
   }
   .section_info .info_block p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-top: 0.8rem;
+  }
+  .section_video h2 {
+    font-size: 22px;
+  }
+  .my_modal .modal-header img {
+    height: 3rem;
   }
   .section_requests p {
     margin: 2rem 0;
