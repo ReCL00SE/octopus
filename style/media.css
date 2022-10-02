@@ -322,4 +322,10 @@
     margin: 0;
     line-height: 1.5;
   }
+  .oct_navbar .navbar-brand img {
+    height: 3rem;
+  }
+  .my_modal .modal-content {
+    padding-top: 15px;
+  }
 }

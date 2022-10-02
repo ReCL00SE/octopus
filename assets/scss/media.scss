@@ -123,10 +123,12 @@
     .section_requests h2 {
         font-size: 3rem;
     }
-    .my_modal .modal-footer a{
+
+    .my_modal .modal-footer a {
         font-size: 1.3rem;
     }
-    .my_modal .modal-footer{
+
+    .my_modal .modal-footer {
         justify-content: center;
     }
 }
@@ -310,7 +312,8 @@
         font-size: 1.1rem;
         padding: 0.5rem 1rem;
     }
-    .my_modal .modal-content{
+
+    .my_modal .modal-content {
         padding: 1.25rem 0;
     }
 }
@@ -320,14 +323,17 @@
     .header-section .header_title {
         font-size: 1.8rem;
     }
-    .oct_link{
+
+    .oct_link {
         font-size: 8px;
         font-weight: 600;
-        
+
     }
-    .section_info h2{
+
+    .section_info h2 {
         font-size: 0.75rem;
     }
+
     .media_changes {
         padding-left: 0;
     }
@@ -349,9 +355,10 @@
         margin-top: 0.8rem;
     }
 
-    .section_video h2{
+    .section_video h2 {
         font-size: 22px;
     }
+
     .my_modal .modal-header img {
         height: 3rem;
     }
@@ -380,5 +387,12 @@
                 line-height: 1.5;
             }
         }
+    }
+
+    .oct_navbar .navbar-brand img{
+        height: 3rem;
+    }
+    .my_modal .modal-content{
+        padding-top: 15px;
     }
 }
