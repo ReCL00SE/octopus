@@ -264,6 +264,17 @@
   .my_modal .modal-content {
     padding: 1.25rem 0;
   }
+  label {
+    font-size: 0.75rem;
+    left: 8px;
+    line-height: 18px;
+    top: calc(50% - 9px);
+  }
+  input:focus + label,
+  input + label.show {
+    font-size: 8px;
+    top: -1.5em;
+  }
 }
 
 @media (max-width: 575.98px) {

@@ -316,6 +316,20 @@
     .my_modal .modal-content {
         padding: 1.25rem 0;
     }
+
+    label {
+        font-size: 0.75rem;
+        left: 8px;
+        line-height: 18px;
+        top: calc(50% - 9px);
+
+    }
+
+    input:focus+label,
+    input+label.show {
+        font-size: 8px;
+        top: -1.5em;
+    }
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -389,10 +403,11 @@
         }
     }
 
-    .oct_navbar .navbar-brand img{
+    .oct_navbar .navbar-brand img {
         height: 3rem;
     }
-    .my_modal .modal-content{
+
+    .my_modal .modal-content {
         padding-top: 15px;
     }
 }

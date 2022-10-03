@@ -347,7 +347,6 @@ footer p {
 
 .slick-arrow {
   border-radius: 50%;
-  background: #fff;
   border: none;
   padding: 0.9rem 1rem;
   font-size: 1.3rem;
@@ -363,16 +362,17 @@ footer p {
           align-items: center;
   width: 2.375rem;
   height: 2.375rem;
-}
-
-.slick-arrow:focus {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
   background: #EA543C;
   color: #fff;
 }
 
-.slick-arrow:hover {
-  background: #EA543C;
-  color: #fff;
+.slick-arrow.slick-disabled {
+  background: #fff;
+  color: #000;
+  -webkit-transition: 0.3 ease;
+  transition: 0.3 ease;
 }
 
 .languages {
@@ -464,4 +464,27 @@ footer p {
   background: transparent;
   border-bottom: 1px solid #000;
   border-radius: 0;
+}
+
+.our_select {
+  background: #fff url("../assets/img/select.svg") right 0.75rem center/12px 8px no-repeat;
+}
+
+label {
+  left: 1rem;
+  position: absolute;
+  top: calc(50% - 14px);
+  -webkit-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 28px;
+  font-weight: 500;
+  color: #363636;
+}
+
+input:focus + label,
+input + label.show {
+  font-size: 0.75rem;
+  top: -1em;
 }

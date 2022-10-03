@@ -303,6 +303,8 @@ footer {
         }
     }
 
+
+
     .oct_link {
         color: #000;
     }
@@ -329,12 +331,11 @@ footer {
     transform: rotate(-45deg);
     margin-left: 3px;
     margin-bottom: 3px;
-    
+
 }
 
 .slick-arrow {
     border-radius: 50%;
-    background: #fff;
     border: none;
     padding: 0.9rem 1rem;
     font-size: 1.3rem;
@@ -345,17 +346,17 @@ footer {
     width: 2.375rem;
     height: 2.375rem;
 
-    &:focus {
+    transition: 0.3s ease;
 
-        background: #EA543C;
-        color: #fff;
+    background: #EA543C;
+    color: #fff;
+
+    &.slick-disabled {
+        background: #fff;
+        color: #000;
+        transition: 0.3 ease;
     }
 
-    &:hover {
-
-        background: #EA543C;
-        color: #fff;
-    }
 }
 
 .languages {
@@ -440,3 +441,29 @@ footer {
 }
 
 //******** MODAL  ***********/
+
+.our_select {
+    background: #fff url('../assets/img/select.svg') right 0.75rem center/12px 8px no-repeat;
+}
+
+
+label {
+    // font-size: 1.75em;
+    // font-weight: 500;
+    left: 1rem;
+    position: absolute;
+    top: calc(50% - 14px);
+    transition: all 0.1s linear;
+    margin: 0;
+    font-size: 1.125rem;
+    line-height: 28px;
+    font-weight: 500;
+    color: #363636;
+  }
+  
+  input:focus + label,
+  input + label.show {
+    font-size: 0.75rem;
+    top: -1em;
+  }
+
